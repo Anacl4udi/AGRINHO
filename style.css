@@ -1,0 +1,105 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(to right, #7fe64c,rgb(5, 92, 31));
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section.texto-box {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caixa-texto {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+
+.caixa-texto h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.caixa-texto p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.celebration {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #f0f8e0;
+}
+
+.celebration h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.celebration button {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
