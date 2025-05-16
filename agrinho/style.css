@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 header {
-    background: linear-gradient(to right, #78c850, #4fc3f7);
+    background: linear-gradient(to right, #7fe64c,rgb(5, 92, 31));
     color: white;
     text-align: center;
     padding: 2rem;
